@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.app-container{
+  font-family: "Popings", sans-serif;
+}
+
+.main-container{
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  width: 95vw;
+  margin: 0 auto; 
+  margin-left: 75px;
+  padding-left: 50px;
+  border-left: 1px solid rgb(116, 116, 116);
+  width: calc(100vw - 126px);
+}
+.main-container h1{
+  line-height: 90%;
+  width: 40vw;
+  vertical-align: baseline;
+  font-weight: 01;
+  font-size: calc(100vw*0.08 + 100vh*0.08);
+  text-transform: uppercase;
+  font-family:"Anton", sans-serif ;
+  color: black;
+  
+}

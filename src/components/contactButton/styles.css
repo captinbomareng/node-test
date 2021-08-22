@@ -1,0 +1,17 @@
+.contact-button{
+    background: black;
+    position:absolute;
+    right: 10vw;
+    bottom: 10vh;
+    border:  1px solid black;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+.contact-button span{
+    margin-right: 10px;   
+}
