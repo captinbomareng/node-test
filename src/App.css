@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
-.app-container{
-  font-family: "Popings", sans-serif;
-}
+
 
 .main-container{
-  height: 100vh;
+  height: 95vh;
   display: flex;
   align-items: flex-end;
   position: relative;
-  width: 95vw;
   margin: 0 auto; 
-  margin-left: 75px;
-  padding-left: 50px;
+  margin-left: 70px;
+  padding-left: 45px;
   border-left: 1px solid rgb(116, 116, 116);
   width: calc(100vw - 126px);
 }

@@ -1,12 +1,14 @@
 import React from 'react'
-import  Menu  from '../menu';
+import MenuButton from './menuButton';
+import  menuButton  from './menuButton';
+import Navigation from './navigation';
 import './styles.css';
 
-function Header() {
+function Header({isNavOpenHandeler, isNavOpen}) {
     return (
         <div className="header-wrap">
-        <p className="brand-description">my protfolio website design</p>
-        <Menu />
+        <MenuButton isNavOpenHandeler ={isNavOpenHandeler} isNavOpen={isNavOpen}/>
+        {isNavOpen&&<Navigation />}
       </div>
     )
 }
